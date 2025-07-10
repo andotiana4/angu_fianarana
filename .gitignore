@@ -1,28 +1,12 @@
-# Angular specific
-/dist/
-/out-tsc/
-/tmp/
-/coverage/
-/e2e/test-output/
-/.angular/
-.angular/
-
-# Node modules and dependency files
-/node_modules/
-/package-lock.json
-/yarn.lock
-
-# Environment files
-/.env
-
-# Angular CLI and build artefacts
-/.angular-cli.json
-/.ng/
-
-# TypeScript cache
-*.tsbuildinfo
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+cat <<EOF > .gitignore
+# Angular, node
+node_modules/
+dist/
+.env
+.DS_Store
+EOF
+/src/Angular 16
+angular.json, package.json, tsconfig.json
+git add .
+git commit -m "Ajout Angular 16 project + Lesona1 PDF"
+git push origin main
